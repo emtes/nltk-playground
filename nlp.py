@@ -17,6 +17,7 @@ pos_tweets_tokens: list = twitter_samples.tokenized('positive_tweets.json')
 pos_tweets_tagged: list = pos_tag_sents(pos_tweets_tokens)
 
 '''
+Tags:
 JJ: adjective
 NN: singular noun
 NNS: plural noun
